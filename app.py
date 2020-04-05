@@ -18,9 +18,9 @@ with open("cat_list.txt") as f:
 print("= = cat_list = =")
 print(cat_list)
 
-@app.route('/')
-def index():
-    return 'Hello World!'
+#@app.route('/')
+#def index():
+#    return 'Hello World!'
 
 @app.route("/", methods=["GET", "POST"])
 def upload_file():
